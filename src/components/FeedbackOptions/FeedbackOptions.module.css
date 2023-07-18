@@ -1,0 +1,21 @@
+.buttonsWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.button {
+    padding: 8px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    width: 80px;
+    border: 2px solid blue;
+}
+
+.button:hover,
+.button:focus {
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: blue;
+}
